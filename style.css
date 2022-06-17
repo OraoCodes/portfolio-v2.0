@@ -1,37 +1,75 @@
-body{
+body {
     font-family: 'Quicksand', cursive;
     margin: 0;
-    /* background: rgb(47,46,65); */
+    background: whitesmoke;
 }
-a{
+
+a {
     text-decoration: none;
 }
-#main-header{
+
+#main-header {
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(47,46,65);
+    background-color: rgb(47, 46, 65);
     padding: 0 20px;
 }
-#logo{
+
+#logo {
     font-size: 24px;
     font-family: 'Righteous', cursive;
     color: white;
 }
-#main-header ul{
+
+#main-header ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
-#main-header li{
+
+#main-header li {
     margin: 0 16px;
     transition: transform .2s;
 }
-#main-header li:hover{
+
+#main-header li:hover {
     transform: scale(1.1);
 }
-#main-header nav a{
+
+#main-header nav a {
     color: white;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#latest-products {
+    width: 80%;
+    margin: 50px auto;
+}
+
+#latest-products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+.food-item{
+    background-color: white;
+    overflow: hidden;
+}
+.food-item img{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+.food-item-content{
+    padding: 16px;
+    text-align: center;
 }
