@@ -9,16 +9,16 @@ a {
 }
 
 #main-header {
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(47, 46, 65);
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 #logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Righteous', cursive;
     color: white;
 }
@@ -31,7 +31,7 @@ a {
 }
 
 #main-header li {
-    margin: 0 16px;
+    margin: 0 1rem;
     transition: transform .2s;
 }
 
@@ -41,16 +41,17 @@ a {
 
 #main-header nav a {
     color: white;
+    font-size: 1.2rem;
 }
 
 main h1 {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 3rem;
 }
 
 #latest-products {
     width: 80%;
-    margin: 50px auto;
+    margin: 2rem auto;
 }
 
 #latest-products ul {
@@ -59,17 +60,24 @@ main h1 {
     gap: 16px;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
-.food-item{
+
+.food-item {
     background-color: white;
     overflow: hidden;
 }
-.food-item img{
-    height: 250px;
+
+.food-item img {
+    height: 15rem;
     width: 100%;
     object-fit: contain;
 }
-.food-item-content{
-    padding: 16px;
+
+.food-item-content {
+    padding: 1rem;
     text-align: center;
+}
+.btn{
+    padding:0.5rem 1.5rem;
 }
