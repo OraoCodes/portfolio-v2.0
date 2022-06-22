@@ -1,6 +1,9 @@
 body {
-    background-color: rgb(31, 30, 30);
+    /* background-color: rgb(31, 30, 30); */
     font-family: 'Quicksand', cursive;
+}
+h1{
+    text-align: center;
 }
 
 form {
@@ -10,7 +13,11 @@ form {
     padding: 1rem;
     border-radius: 6px;
 }
-
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 label {
     margin-bottom: 0.5rem;
     display: block;
