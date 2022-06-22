@@ -17,7 +17,7 @@ label {
 }
 
 input,
- textarea {
+ textarea, select {
     width: 100%;
     display: block;
     margin-bottom: 1rem;
