@@ -16,7 +16,8 @@ label {
     display: block;
 }
 
-input {
+input,
+ textarea {
     width: 100%;
     display: block;
     margin-bottom: 1rem;
@@ -27,7 +28,8 @@ input {
     color: rgb(85, 19, 19);
 }
 
-input:focus {
+input:focus,
+textarea:focus {
     color: rgb(18, 2, 44);
 }
 .form-control-inline{
