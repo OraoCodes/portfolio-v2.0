@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 #main-header {
     height: 5rem;
     display: flex;

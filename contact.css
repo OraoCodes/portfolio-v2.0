@@ -2,7 +2,8 @@ body {
     /* background-color: rgb(31, 30, 30); */
     font-family: 'Quicksand', cursive;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
@@ -13,18 +14,25 @@ form {
     padding: 1rem;
     border-radius: 6px;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 label {
     margin-bottom: 0.5rem;
     display: block;
 }
 
+textarea {
+    resize: none;
+}
+
 input,
- textarea, select {
+textarea,
+select {
     width: 100%;
     display: block;
     margin-bottom: 1rem;
@@ -39,13 +47,16 @@ input:focus,
 textarea:focus {
     color: rgb(18, 2, 44);
 }
-.form-control-inline{
+
+.form-control-inline {
     display: flex;
 }
-.form-control-inline input{
+
+.form-control-inline input {
     width: auto;
-    margin-right:0.5rem;
+    margin-right: 0.5rem;
 }
+
 button {
     display: block;
     font: inherit;
