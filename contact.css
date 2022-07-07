@@ -1,5 +1,4 @@
 body {
-    /* background-color: rgb(31, 30, 30); */
     font-family: 'Quicksand', cursive;
 }
 
@@ -10,7 +9,7 @@ h1 {
 form {
     width: 30rem;
     margin: 3rem auto;
-    background-color: whitesmoke;
+    background-color: #3ec6cb;
     padding: 1rem;
     border-radius: 6px;
 }
