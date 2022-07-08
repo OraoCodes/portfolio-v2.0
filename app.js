@@ -1,15 +1,18 @@
-// Add new functionailty for message counter
+// Add new functionailty 
+const enteredUserInput = document.getElementById('user-message');
 
-const inputMessage = document.querySelector('#user-message');
-const remainingChar = document.querySelector('#remaining-char');
+const remainingChar = document.getElementById('remaining-char');
 
-let maxAllowedChar = inputMessage.maxLength;
+let maxChar = enteredUserInput.maxLength;
 
-function updateChar(event){
-    const userMessage = event.target.value;
-    const messageChars = userMessage.length;
+function changeData(event){
+    const enteredValue = event.target.value;
+    const enteredLength = enteredValue.length;
 
-    const updatedChar = maxAllowedChar - messageChars;
-    remainingChar.textContent = updatedChar;
+    const remainingChars = maxChar - enteredLength;
+
+    remainingChar.textContent = remainingChars;
+
 }
-inputMessage.addEventListener('input', updateChar);
+enteredUserInput.addEventListener('input', changeData);
+
