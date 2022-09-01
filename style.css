@@ -60,7 +60,7 @@ li{
 
 #main-header nav a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 main h1 {
@@ -146,6 +146,24 @@ main h1 {
 
 .btn {
     padding: 0.5rem 1.5rem;
+}
+
+#socials ul{
+    width: 30%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#socials ul li{
+    padding: 0 5%;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+#copyrt{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 /* media queries */
