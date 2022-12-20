@@ -1,7 +1,14 @@
+html{
+    margin:0;
+    padding:0;
+    max-height:100vh;
+  }
+
 body {
-    font-family: 'Quicksand', cursive;
+    font-family: 'Chivo Mono', monospace;
     margin: 0;
-    background: whitesmoke;
+    padding: 0;
+    height: 100%;
 }
 
 a {
@@ -22,7 +29,7 @@ li{
 }
 
 #logo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Righteous', cursive;
     color: white;
 }
@@ -60,6 +67,7 @@ li{
 
 #main-header nav a {
     color: white;
+    font-family: 'Chivo Mono', monospace;
     font-size: 1rem;
 }
 
@@ -112,6 +120,7 @@ main h1 {
 #latest-career {
     width: 80%;
     margin: 4rem auto;
+    
 }
 
 #latest-career ul {
@@ -121,25 +130,26 @@ main h1 {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
-.food-item {
-    background-color: white;
+.career-item {
     overflow: hidden;
 }
 
-.food-item img {
+.career-item img {
     height: 15rem;
     width: 100%;
     object-fit: contain;
 }
 
-.food-item h2 {
+.career-item p {
     margin: 0 0 1rem 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-family: 'Quicksand', cursive;
 }
 
-.food-item-content {
+.career-item-content {
     padding: 1rem;
     text-align: center;
 }
@@ -148,24 +158,25 @@ main h1 {
     padding: 0.5rem 1.5rem;
 }
 
-#socials ul{
-    width: 30%;
-    margin: 2rem auto;
-    display: flex;
-    justify-content: space-evenly;
+footer{
+    height: 5rem;
+    text-align: center;
+    background-color: rgb(47, 46, 65);
+
 }
-#socials ul li{
-    padding: 0 5%;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
+
 #copyrt{
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 9rem;
     font-size: 0.8rem;
     font-weight: bold;
 }
-
+#bottom-nav p{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+}
 /* media queries */
 @media(max-width: 48rem) {
     #main-header nav {
