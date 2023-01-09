@@ -29,7 +29,7 @@ li{
 }
 
 #logo {
-    font-size: 1.3rem;
+    font-size: 1.rem;
     font-family: 'Righteous', cursive;
     color: white;
 }
@@ -68,7 +68,7 @@ li{
 #main-header nav a {
     color: white;
     font-family: 'Chivo Mono', monospace;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 main h1 {
